@@ -7,4 +7,6 @@ There are several different tools and datasets available to help determine credi
 * A combinatorial approach of over- and undersampling using the SMOTEENN
 * Compare the classifiers BalancedRandomForestClassifier and EasyEnsembleClassifier, which help to reduce bias in machine learning
 
-The results from each algorithm are then compared to help make the best reccommendation for predicting credit risk
+We will then evaluate the results of each algorithm to determine if they should be used to predict credit risk
+
+## Algorithm Results

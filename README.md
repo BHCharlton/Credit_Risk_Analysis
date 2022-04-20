@@ -10,3 +10,5 @@ There are several different tools and datasets available to help determine credi
 We will then evaluate the results of each algorithm to determine if they should be used to predict credit risk
 
 ## Algorithm Results
+
+### Oversampling (RandomOverSampler)

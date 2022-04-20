@@ -12,3 +12,7 @@ We will then evaluate the results of each algorithm to determine if they should 
 ## Algorithm Results
 
 ### Oversampling (RandomOverSampler)
+![Oversam](https://user-images.githubusercontent.com/93561592/164338304-2ed54905-a700-4f6e-beec-60df830c1b0f.PNG)
+
+### Oversampling (SMOTE)
+![SMOTE](https://user-images.githubusercontent.com/93561592/164338423-9069771c-40ce-429a-9536-bc64905c8b75.PNG)

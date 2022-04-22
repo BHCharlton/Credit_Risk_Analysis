@@ -54,6 +54,18 @@ Similar to undersampling, the high number of false positives results in a low-ri
 ### Balanced Random Forest Classifier
 ![Forest](https://user-images.githubusercontent.com/93561592/164586935-065ef77e-e0ff-416a-9964-1474d3449821.PNG)
 
+The balanced accuracy score has now risen to 78.8%
+
+The high-risk precision is higher at 4% with a sensitivity of 67% resulting in an F1 of 7%
+
+Due to the lower number of false positives, the low-risk sensitivity in now 91% with a precision close to 100% again
+
+
 ### Easy Ensemble AdaBoost Classifier
+![Adaboost](https://user-images.githubusercontent.com/93561592/164588180-7265a3a6-c9d6-4820-b8e2-50204050a36f.PNG)
 
+The balanced accuracy score is now at its best, coming in at 92.5%
 
+The high-risk precision is approximately 7% with a sensitivity of 91% resulting in an F1 of 14%
+
+Due to the lower number of false positives, the low-risk sensitivity is now even higher at 94% with a precision close to 100% again

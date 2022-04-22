@@ -50,3 +50,10 @@ The high-risk precision is approximately 1% with a sensitivity of 69% resulting 
 
 Similar to undersampling, the high number of false positives results in a low-risk sensitivity of only 43% despite a precision close to 100%
 
+
+### Balanced Random Forest Classifier
+![Forest](https://user-images.githubusercontent.com/93561592/164586935-065ef77e-e0ff-416a-9964-1474d3449821.PNG)
+
+### Easy Ensemble AdaBoost Classifier
+
+

@@ -72,5 +72,5 @@ Due to the lower number of false positives, the low-risk sensitivity is now even
 
 ## Summary
 Every model used in these algorithms had poor precision when determining a high credit risk.  The ensemble algorithms performed slightly better in this category, while also having much better sensitivity when detecting high credit risk than the resampling algorithms.  Unfortunately, though, the relatively low precision values still indicates that a lot of low-risk credit may be falsely identified as high-risk which would negatively affect the risk analysis being performed.
-Overall, the Easy Ensemble AdaBoost Classifier performed better than all the other algorithms that were tried.  While this would probably make the best choice for the bank out of these models, there would still be a considerable amount of questionable outcomes, and I would likely recommend testing other models that would perform better and provide more accurate results.
+Overall, the Easy Ensemble AdaBoost Classifier performed better than all the other modeles that were tested.  While this would probably make the best choice for the bank out of these models, there would still be a considerable amount of questionable outcomes, and I would likely recommend testing other models that would perform better and provide more accurate results.
 

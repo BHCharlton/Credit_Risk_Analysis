@@ -23,7 +23,7 @@ Due to the high number of the low-risk population, the precision is close to 100
 ### Oversampling (SMOTE)
 ![SMOTE](https://user-images.githubusercontent.com/93561592/164338423-9069771c-40ce-429a-9536-bc64905c8b75.PNG)
 
-The resutls for SMOTE are similar to RandmOversampler
+The results for SMOTE are similar to RandmOversampler
 
 The balanced accuracy score comes to 65.1%
 
@@ -71,4 +71,6 @@ The high-risk precision is approximately 7% with a sensitivity of 91% resulting 
 Due to the lower number of false positives, the low-risk sensitivity is now even higher at 94% with a precision close to 100% again
 
 ## Summary
-words go hear
+Every model used in these algorithms had poor precision when determining a high credit risk.  The ensemble algorithms performed slightly better in this category, while also having much better sensitivity when detecting high credit risk than the resampling algorithms.  Unfortunately, though, the relatively low precision values still indicates that a lot of low-risk credit may be falsely identified as high-risk which would negatively affect the risk analysis being performed.
+Overall, the Easy Ensemble AdaBoost Classifier performed better than all the other algorithms that were tried.  While this would probably make the best choice for the bank out of these models, there would still be a considerable amount of questionable outcomes, and I would likely recommend testing other models that would perform better and provide more accurate results.
+
